@@ -1,5 +1,8 @@
 {
 	"name": "md-link-generator",
+	"repository": {
+		"url": "https://github.com/kokutaro/md-link-generator"
+	},
 	"displayName": "md-link-generator",
 	"description": "Automatically create the link on the word that relevants to paragraph.",
 	"version": "1.0.0",
@@ -13,7 +16,6 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:md-link-generator.helloWorld",
 		"onCommand:md-link-generator.generateLinks"
 	],
 	"main": "./out/extension.js",
